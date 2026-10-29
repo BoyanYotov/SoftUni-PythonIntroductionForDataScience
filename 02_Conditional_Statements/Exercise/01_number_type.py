@@ -1,4 +1,8 @@
 number = int(input())
 
-if (number < 100 or number > 200) and (number != 0):
-    print("invalid")
+if number > 0 :
+    print("positive")
+elif number < 0 :
+    print("negative")
+elif number == 0 :
+    print("zero")
