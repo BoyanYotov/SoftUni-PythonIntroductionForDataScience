@@ -1,9 +1,8 @@
-a = int(input())
-b = int(input())
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
 
+def print_smallest_number(n1, n2, n3):
+    print(min(n1, n2, n3))
 
-def calculate_area(a: int, b: int) -> int:
-    return a * b
-
-
-print(calculate_area(a, b))
+print_smallest_number(n1, n2, n3)
