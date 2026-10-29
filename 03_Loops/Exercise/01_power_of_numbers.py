@@ -1,6 +1,9 @@
-max = int(input())
-number = 1
+a = int(input())
+b = int(input())
 
-while number <= max:
-    print(number)
-    number = number * 2 + 1
+current_sum = 0
+
+for num in range(a, b + 1):
+    current_sum = a ** num
+
+print(current_sum)
